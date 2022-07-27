@@ -2,23 +2,23 @@
     "trentKim": [
       {
         "number": "0",
-        "name": "Name Journaling",
-        "type": "Archive",
-        "date": "2022",
-        "tags": "",
-        "credits": "",
-        "description": "Name journaling was a method I created for myself to document the patterns and crucial memories of each of my names as I began the reclamation of my Korean name and transition away from my adoptive name. In 2021, I created a <a href=\"https://name-journal.glitch.me/\">website</a> to begin this documentation, but at the time, I wanted to give the idea some more time and thought, beofre I continued. <br><br>A year later, I still find myself thinking about of the significance of my names. While the space grows between Trent Lowe and shrinks between Trent Kim; while Kangseok Kim (김강석) is no longer a disembodied document name; while Konglishized Trent(트랜트) echoes a bit uncomfortably, I am each of them and each name is a part of me. As I begin name journalling again as of June 2022, I question the ways that adoptive names, and the act of renaming, can reflect the loss and neo-colonial ethic that transnational adoption is built upon.",
-        "media": "<img src=\"assets/projects/name-journal/1.gif\"><img src=\"assets/projects/name-journal/2.png\">"
-      },
-      {
-        "number": "1",
-        "name": "May 29",
+        "name": "May 5",
         "type": "Photos",
         "date": "2022",
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/exit-1d/1.jpg\"><img src=\"assets/photos/exit-1d/2.jpg\">"
+        "media": "<img src=\"assets/photos/may-5/1.jpg\"><img src=\"assets/photos/may-5/2.jpg\"><img src=\"assets/photos/may-5/3.jpg\"><img src=\"assets/photos/may-5/4.jpg\">"
+      },
+      {
+        "number": "1",
+        "name": "Name Journaling",
+        "type": "Archive",
+        "date": "2022",
+        "tags": "Web, Writing, Process",
+        "credits": "",
+        "description": "Name journaling was a method I created for myself to document the patterns and core memories for each of my names as I began the reclamation of my Korean name and transition away from my adoptive name. In 2021, I created a <a href=\"https://name-journal.glitch.me/\">website</a> to begin this documentation, but at the time, I wanted to give the idea some more time and thought before I continued. <br><br>A year later, I still find myself thinking about of the significance of my names. While the space grows between Trent Lowe and shrinks between Trent Kim; while Kangseok Kim (김강석) is no longer a disembodied document name; while Konglishized Trent(트랜트) echoes a bit uncomfortably, I am each of them and each name is a part of me. As I begin name journalling again as of June 2022, I question the ways that adoptive names, and the act of renaming, can reflect the loss and neo-colonial ethic that transnational adoption is built upon.",
+        "media": "<img src=\"assets/projects/name-journal/1.gif\"><img src=\"assets/projects/name-journal/2.png\">"
       },
       {
         "number": "2",
@@ -35,43 +35,33 @@
         "name": "Portfolio v.1",
         "type": "Archive",
         "date": "2022",
-        "tags": "",
+        "tags": "Web",
         "credits": "",
-        "description": "The <a href=\"https://stirring-rolypoly-028a0c.netlify.app/\">first version</a> of this website was inspired by my memory of curiously and playfully clicking buttons (yes, I was the child who clicked all the elevator buttons). Each button opened to a page that was either a project, note, place nearby, or about myself. Using the navigation tool to the left, the buttons could be filtered and their contents revealed like footnotes. <br><br>In the website's current version, I designed it to be easier to explore the website's content, while not losing the interaction of the numbered buttons.",
+        "description": "For the <a href=\"https://stirring-rolypoly-028a0c.netlify.app/\">first version</a> of my website, I was wondering what makes clicking elevator buttons so much fun? So to categories the the contents of the website, I used anonymous buttons that each reveal a page, just as an elevator reveals each floor.",
         "media": "<img src=\"assets/projects/portfolio-v1/1.gif\"><img src=\"assets/projects/portfolio-v1/2.gif\">"
       },
       {
         "number": "4",
-        "name": "May 5",
-        "type": "Photos",
-        "date": "2022",
-        "tags": "",
-        "credits": "",
-        "description": "",
-        "media": "<img src=\"assets/photos/old-bridge-path-3/1.jpg\"><img src=\"assets/photos/old-bridge-path-3/2.jpg\">"
-      },
-      {
-        "number": "5",
-        "name": "Incorporeal Company",
-        "type": "Archive",
-        "date": "2021",
-        "tags": "",
-        "credits": "",
-        "description": "<a href=\"https://luminous-liger-231ea3.netlify.app/\"><em>Incorporeal Company</em></a> is a website I created about walking and arriving in the isolation of the pandemic. Originally inspired by a collection of audio recorded walks that my friends and I made to listen to while on our own walks, the idea became a symbolic search for connection and solidarity. ",
-        "media": "<img src=\"assets/projects/incorporeal-company/1.gif\"><img src=\"assets/projects/incorporeal-company/2.gif\"><img src=\"assets/projects/incorporeal-company/3.gif\">"
-      },
-      {
-        "number": "6",
         "name": "April 28",
         "type": "Photos",
         "date": "2022",
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/india-point-park/1.jpg\"><img src=\"assets/photos/india-point-park/2.jpg\">"
+        "media": "<img src=\"assets/photos/april-28/1.jpg\"><img src=\"assets/photos/april-28/2.jpg\">"
       },
       {
-        "number": "7",
+        "number": "5",
+        "name": "Incorporeal Company",
+        "type": "Archive",
+        "date": "2021",
+        "tags": "Web, Audio",
+        "credits": "",
+        "description": "<a href=\"https://luminous-liger-231ea3.netlify.app/\"><em>Incorporeal Company</em></a> is a website I created about walking and arriving in the isolation of the pandemic. Originally inspired by a collection of audio recorded walks that my friends and I made to listen to while on our own walks, the idea became a symbolic search for connection and solidarity. ",
+        "media": "<img src=\"assets/projects/incorporeal-company/1.gif\"><img src=\"assets/projects/incorporeal-company/2.gif\"><img src=\"assets/projects/incorporeal-company/3.gif\">"
+      },
+      {
+        "number": "6",
         "name": "From My Desk",
         "type": "Notes",
         "date": "2022",
@@ -81,14 +71,24 @@
         "media": ""
       },
       {
-        "number": "8",
+        "number": "7",
         "name": "April 3",
         "type": "Photos",
         "date": "2022",
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/bedroom-4/1.jpg\">"
+        "media": "<img src=\"assets/photos/april-3/1.jpg\">"
+      },
+      {
+        "number": "8",
+        "name": "Wecair University",
+        "type": "Archive",
+        "date": "2021",
+        "tags": "Web, Game",
+        "credits": "",
+        "description": "Inspired by the <a href=\"https://www.youtube.com/watch?v=3ByxB-U5yD8&ab_channel=SwankyPsammead\">tonal dissonance</a> and deceptively simple mechanics of games such as <a href=\"https://www.klei.com/games/dont-starve-together\">Don’t Starve Together</a>, <a href=\"https://adarkroom.doublespeakgames.com/\">A Dark Room</a>, and <a href=\"https://candybox2.github.io/\">Candy Box 2</a>, <em>Wecair University</em> is a text-based single-player, role-play game based on the and interactions in order for an art student to survive a rigorous, unforgiving university environment. Beginning within the confines of an email inbox, the student is greeted with an email from the Office of the President welcoming them as a new student. Gaining newfound independence in university is perceived as a time for growth and exploration, but as the game progresses, survival becomes increasingly difficult as the student must confront the exploitative reality of a neo-liberal institution whilst maintaining the health of their mind, body, and wallet. <br><br><em>Wecair University</em> was a project I stopped after the beginnings of a story board and front-end code, as I realized the project was far outside my individual capabilities. If anyone is interested in this idea, I’d love to talk about it and see it be completed and/or adapted.",
+        "media": "<img src=\"assets/projects/wecair-university/2.png\"><img src=\"assets/projects/wecair-university/4.gif\"><img src=\"assets/projects/wecair-university/1.png\"><img src=\"assets/projects/wecair-university/5.gif\"><img src=\"assets/projects/wecair-university/3.png\">"
       },
       {
         "number": "9",
@@ -98,7 +98,7 @@
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/old-bridge-path-2/1.jpg\"><img src=\"assets/photos/old-bridge-path-2/2.jpg\"><img src=\"assets/photos/old-bridge-path-2/3.jpg\">"
+        "media": "<img src=\"assets/photos/feb-23/1.jpg\"><img src=\"assets/photos/feb-23/2.jpg\"><img src=\"assets/photos/feb-23/3.jpg\">"
       },
       {
         "number": "10",
@@ -118,7 +118,7 @@
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/bedroom-3/3.jpg\"><img src=\"assets/photos/bedroom-3/2.jpg\">"
+        "media": "<img src=\"assets/photos/feb-20/3.jpg\"><img src=\"assets/photos/feb-20/2.jpg\">"
       },
       {
         "number": "12",
@@ -138,7 +138,7 @@
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/old-bridge-path/1.jpg\"><img src=\"assets/photos/old-bridge-path/2.jpg\"><img src=\"assets/photos/old-bridge-path/3.jpg\"><img src=\"assets/photos/old-bridge-path/4.jpg\">"
+        "media": "<img src=\"assets/photos/feb-12/1.jpg\"><img src=\"assets/photos/feb-12/2.jpg\"><img src=\"assets/photos/feb-12/3.jpg\"><img src=\"assets/photos/feb-12/4.jpg\">"
       },
       {
         "number": "14",
@@ -158,7 +158,7 @@
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/bedroom-2/1.jpg\"><img src=\"assets/photos/bedroom-2/2.jpg\">"
+        "media": "<img src=\"assets/photos/jan-29/1.jpg\"><img src=\"assets/photos/jan-29/2.jpg\">"
       },
       {
         "number": "16",
@@ -168,7 +168,7 @@
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/karezz-hair-salon/1.jpg\"><img src=\"assets/photos/karezz-hair-salon/2.jpg\"><img src=\"assets/photos/karezz-hair-salon/3.jpg\"><img src=\"assets/photos/karezz-hair-salon/4.jpg\">"
+        "media": "<img src=\"assets/photos/jan-18/1.jpg\"><img src=\"assets/photos/jan-18/2.jpg\"><img src=\"assets/photos/jan-18/3.jpg\"><img src=\"assets/photos/jan-18/4.jpg\">"
       },
       {
         "number": "17",
@@ -195,20 +195,20 @@
         "name": "Family Scent",
         "type": "Archive",
         "date": "2019",
-        "tags": "",
+        "tags": "Motion",
         "credits": "",
-        "description": "A short motion graphics exercise on the possible interventions and speculative futures of how our olfactory systems might be exploited and our perceptions of smell might change in the face of evolving family structures.",
-        "media": "</video><video controls><source src=\"assets/projects/smell-experiments/1.mp4\" type=\"video/mp4\"></video>"
+        "description": "A short motion graphics exercise for speculative institution in a future where olfactory systems might be exploited as the perception of smell changes in the face of evolving family structures.",
+        "media": "</video><video controls><source src=\"assets/projects/family-scent/1.mp4\" type=\"video/mp4\"></video>"
       },
       {
         "number": "20",
         "name": "January 5",
-        "type": "Places",
+        "type": "Photos",
         "date": "2022",
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/living-room/1.jpg\"><img src=\"assets/photos/living-room/2.jpg\"><img src=\"assets/photos/living-room/3.jpg\">"
+        "media": "<img src=\"assets/photos/jan-5/1.jpg\"><img src=\"assets/photos/jan-5/2.jpg\"><img src=\"assets/photos/jan-5/3.jpg\">"
       },
       {
         "number": "21",
@@ -225,20 +225,20 @@
         "name": "nth degree: unconference",
         "type": "Archive",
         "date": "2019",
-        "tags": "",
-        "credits": "",
+        "tags": "Community Workshops, Event Management",
+        "credits": "<h1>Conference Team<span>: <a href=\"https://kayliang.com/\">Kay Liang</a>, Michael Caplan, <a href=\"http://libyhays.net/index.html\">Libby Hays</a>, Trent Kim</span></h1>",
         "description": "<em>nth degree: unconference</em> was an event hosted by <a href=\"https://www.facebook.com/discoverbrisd/\">Discover</a>, a RISD and Brown University student group interested in pedagogical access and exchange. In previous years, Discover hosted a conference featuring a series of unscripted conversations between professors from each of the campuses. Wanting to subvert traditionally merit-based conferences, <em>nth degree: unconference</em> was a participatory space for students and faculty to reflect upon our educational experiences through workshops, intimate activities, and playful settings. <br><br>Despite RISD and Brown’s unique access to cross-campus resources, rigorous course loads, isolation within our majors, and bureaucratic barriers often make it difficult to take advantage of resources and communities that we are a part of. Over the day-long event, we found ourselves critiquing university rituals such as crit, a collaborative feedback process ubiquitous to art and design schools, reflecting on the ways in which we value our work in relation to ourselves, imagining what spaces we would like to see on campus, and learning what it means to be cared for within a classroom setting. <em>nth degree: unconference</em> was a reminder of our ability to find and build community as an act of collective care and defiance. <br><br>Thank you Kay Liang, Michael Caplan, and Libby Hays for such a formative experience and making me apart of the Conference Team.",
-        "media": "<video controls><source src=\"assets/projects/nth-degree-unconference/2.mp4\" type=\"video/mp4\"></video>"
+        "media": "<video controls><source src=\"assets/projects/nth-degree/nth-degree.mp4\" type=\"video/mp4\"></video>"
       },
       {
         "number": "23",
-        "name": "Bedroom",
+        "name": "December 17",
         "type": "Photos",
         "date": "2021",
         "tags": "",
         "credits": "",
         "description": "",
-        "media": "<img src=\"assets/photos/bedroom/1.jpg\"><img src=\"assets/photos/bedroom/2.jpg\">"
+        "media": "<img src=\"assets/photos/dec-17/1.jpg\"><img src=\"assets/photos/dec-17/2.jpg\">"
       }
     ]
 }
