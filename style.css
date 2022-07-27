@@ -1,0 +1,227 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+
+/* TEXT //////////////////////////////////////*/
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+}
+
+h2, span {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+}
+
+
+/* LINKS ////////////////////////////////////*/
+a:link { 
+    text-decoration: underline;
+    color: blue;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: blue;
+}
+
+a:hover { 
+    text-decoration: none; 
+}
+
+a:focus { 
+    text-decoration: none; 
+}
+
+
+/* FILTER LINKS /////////////////////////////*/
+a.filterButton:link {
+    text-decoration: none;
+    color: black;
+    border: solid;
+    display: inline-block;
+    transition: transform .1s ease-out;
+}
+
+a.filterButton:visited { 
+    text-decoration: none; 
+    color: black;
+}
+
+a.filterButton:hover { 
+    text-decoration: none;
+    transform: translateY(4px);
+}
+
+a.filterButton:focus { 
+    text-decoration: none; 
+}
+
+
+a.home,a.about:link {
+    text-decoration: underline; 
+    color: blue;
+}
+
+a.home,a.about:visited {
+    text-decoration: underline; 
+    color: blue;
+}
+
+
+main {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.scrollTracker {
+    position: fixed;
+    top: 50%;
+}
+
+section {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.leftCol{
+    width: 335px;
+}
+
+.rightCol{
+    width: calc(100% - 335px);
+    min-width: 50%;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+
+.home {
+    margin-left: 25px;
+}
+
+.about {
+    margin-right: 25px;
+}
+
+
+.filter {
+    margin-left: 25px;
+    /* line-height: 2; */
+}
+
+.filterButtonActive {
+    background: black;
+    border-color:black;
+}
+
+
+
+/* .content {
+    margin-top: 70px;
+} */
+
+.numContainer {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 59px [col-start]);
+    justify-content: center;
+    /* background-color: orange; */
+}
+
+.numButton {
+    display: grid;
+    margin: 2.5px;
+    justify-items: center;
+    align-items: center;
+}
+
+.num, .circle {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.num{
+    font-family: 'EB Garamond', serif;
+    font-size: 36px;
+    text-align: center;
+    /* color: #515151; */
+    width: 50px;
+    height: 50px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid;
+    border-color: white;
+    /* border-color: #515151; */
+    /* border-width: 2px; */
+}
+
+.numButtonActive {
+    transition: transform .7s ease-in-out;
+  }
+.numButtonActive:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.project {
+    padding: 60px 0 60px 0;
+    border-bottom: solid;
+}
+
+.year {
+    margin-left: 10px;
+}
+
+.imageScroll {
+    display: flex;
+    overflow-x: scroll;
+    height: 70vh;
+    width: 100%;
+}
+
+.imageScroll > img {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.projectDescription {
+    display: flex;
+}
+
+.summary {
+    width: 50%;
+}
+
+.projectDescriptionSpacer {
+    width: 10%;
+}
+
+.projectDetails {
+    width: 18%;
+}

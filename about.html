@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trent Kim</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+        
+        <!-- FILES -->
+        <link rel="stylesheet" href="/style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="/script.js" ></script>
+    </head>
+    <body>
+        <main>
+            <div class="scrollTracker"></div>
+            <nav class="leftNav">
+                <a class="home" href="index.html">
+                    <h2>Trent Kim</h2>
+                </a>
+                <a class="about aboutActive" href="about.html">
+                    <h2>About</h2>
+                </a>
+            </nav>
+            <section class="leftCol">
+                <div class="content leftContent">
+                    <div class="numContainer"></div>
+                    <div class="filter">
+                        <h2><a class="filterButton" id="featuredProjects" href="index.html">Featured Projects</a>
+                            <a class="filterButton" id="archive" href="archive.html">Archive</a>
+                            <a class="filterButton" id="photos" href="photos.html">Photos</a>
+                            <br><br>
+                            <a class="filterButton" id="notes" href="notes.html">Notes</a>
+                            <a class="filterButton" id="all" href="all.html">All</a>
+                        </h2>
+                    </div>  
+                </div>
+            </section>
+            <section class="rightCol">
+                <div class="content rightContent">
+                    <div id="p${trentKim[filterList[i]].number}" class="project">
+                        <h1>Hello, I'm Trent!</h1>
+                        <div class="projectDescription">
+                            <h2 class="summary">
+                                Born in Jeonju, South Korea, and currently living in Pittsgrove, New Jersey, I’m an interdisciplinary designer interested in mediums of storytelling. Thus, I often find myself being drawn to many types of projects from web design, branding, and publication to systems thinking and community organizing.
+                                <br><br>
+                                In my personal practice, I explore themes of transnational and transracial identity, healing, and language as they relate to my experience as a Korean adoptee. 
+                                <br><br>
+                                In my free time, I enjoy photographing the mundane spaces that I inhabit, journaling when I’m overthinking, and cooking nice meals for myself(although this comes and goes in phases).
+                            </h2>
+                            <div class="projectDescriptionSpacer"></div>
+                            <div class="projectDetails">
+                                <h1 class="tags"></h1>
+                                <h1>Instagram<span>: <a href="https://www.instagram.com/t.ks.k/">@t.ks.k</a></span></h1>
+                                <h1>Email<span>: <a href="mailto:itstrentkiml@gmail.com">itstrentkiml@gmail.com</a></span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+        </main>
+    </body>
+</html>
