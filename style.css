@@ -109,6 +109,7 @@ nav {
     width: 100%;
     height: 50px;
     background: white;
+    /* border-bottom: solid; */
 }
 
 .home {
@@ -190,8 +191,9 @@ nav {
 
 
 .project {
-    padding: 60px 0 60px 0;
+    padding: 60px 0 60px 25px;
     border-bottom: solid;
+    /* border-left: solid; */
 }
 
 .year {
@@ -224,4 +226,63 @@ nav {
 
 .projectDetails {
     width: 18%;
+}
+
+
+@media only screen and (max-width: 800px) {
+    main {
+        display: flex;
+        height: auto;
+    }
+
+    nav {
+        position: fixed;
+    }
+
+    .numContainer {
+        /* visibility: hidden;
+        clear: both;
+        display: none; */
+    }
+
+    .leftCol {
+        width: 100%;
+        border-bottom: solid;
+        padding-bottom: 70px;
+    }
+
+    .rightCol{
+        width: 100%;
+        min-width: 50%;
+    }
+
+    .project {
+        padding: 60px 25px 60px 25px;
+        border-bottom: solid;
+        /* border-left: solid; */
+    }
+
+    .imageScroll {
+        display: flex;
+        overflow-x: scroll;
+        height: 40vh;
+        width: 100%;
+    }
+
+    .projectDescription {
+        display: block;
+    }
+
+    .summary {
+        width: 100%;
+        
+    }
+    
+    .projectDescriptionSpacer {
+        width: 0%;
+    }
+    
+    .projectDetails {
+        width: 100%;
+    }
 }
