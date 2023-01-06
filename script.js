@@ -118,4 +118,7 @@ function scrollToProject(id) {
 }
 
 
+
+
+
 // A year later, I still find myself thinking about of the significance of my names. While the space grows between Trent Lowe and shrinks between Trent Kim; while Kangseok Kim (김강석) is no longer a disembodied document name; while Konglishized Trent(트랜트) echoes a bit uncomfortably, I am each of them and each name is a part of me. 
