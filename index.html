@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="transition-class" lang="en">
     <head>
         <meta charset="utf-8">
         <title>Trent Kim</title>
@@ -16,33 +16,35 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="/script.js" ></script>
     </head>
-    <body>
+    <body class="bkg">
         <main>
             <div class="scrollTracker"></div>
-            <nav class="nav">
-                <a class="home" href="index.html">
-                    <h2>Trent Kim</h2>
-                </a>
-                <a class="about" href="about.html">
-                    <h2>About</h2>
-                </a>
+            <nav class="nav  text link">
+                <h2><a class="home" href="index.html">
+                    Trent Kim
+                </a></h2>
+                <h2><a class="about" href="about.html">
+                    About
+                </a></h2>
             </nav>
-            <section class="leftCol">
+            <section class="leftCol text">
                 <div class="content leftContent">
                     <div class="numContainer"></div>
                     <div class="filter">
-                        <h2><a class="filterButton filterButtonActive" id="featuredProjects" href="index.html" style="color: white">Featured Projects</a>
-                            <a class="filterButton" id="archive" href="archive.html">Archive</a>
-                            <a class="filterButton" id="photos" href="photos.html">Photos</a>
+                        <h2><a class="filterButton bkg text filterButtonActive" id="featuredProjects" href="index.html">Featured Projects</a>
+                            <a class="filterButton bkg text themeText" id="archive" href="archive.html">Archive</a>
                             <br><br>
-                            <a class="filterButton" id="notes" href="notes.html">Notes</a>
-                            <a class="filterButton" id="all" href="all.html">All</a>
+                            <a class="filterButton bkg text themeText" id="photos" href="photos.html">Photos</a>
+                            <a class="filterButton bkg text themeText" id="notes" href="notes.html">Notes</a>
+                            <a class="filterButton bkg text themeText" id="all" href="all.html">All</a>
                         </h2>
-                    </div>  
-                    <button class="darkMode"></button>
+                    </div> 
+                    
+                    
                 </div>
+                <button class="btn-toggle">d</button>
             </section>
-            <section class="rightCol">
+            <section class="rightCol text link">
                 <div class="content rightContent">
 
                 </div>

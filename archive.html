@@ -16,7 +16,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="/script.js" ></script>
     </head>
-    <body>
+    <body id="body">
         <main>
             <div class="scrollTracker"></div>
             <nav class="leftNav">
@@ -33,13 +33,14 @@
                     <div class="filter">
                         <h2>
                             <a class="filterButton" id="featuredProjects" href="index.html">Featured Projects</a>
-                            <a class="filterButton filterButtonActive" id="archive" href="archive.html" style="color: white">Archive</a>
-                            <a class="filterButton" id="photos" href="photos.html">Photos</a>
+                            <a class="filterButton filterButtonActive" id="archive" href="archive.html">Archive</a>
                             <br><br>
+                            <a class="filterButton" id="photos" href="photos.html">Photos</a>
                             <a class="filterButton" id="notes" href="notes.html">Notes</a>
                             <a class="filterButton" id="all" href="all.html">All</a>
                         </h2>
-                    </div>  
+                    </div>
+                    <button class="btn-toggle">Toggle Dark-Mode</button>
                 </div>
             </section>
             <section class="rightCol">

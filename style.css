@@ -3,28 +3,69 @@ html, body {
     padding:0;
 }
 
+.bkg {
+    /*  */
+    --bkg-color: white;
+}
+
+.bkg.dark-theme {
+    /* --text-color: white; */
+    --bkg-color: black;
+}
+
+.text {
+    --text-color: black;
+}
+
+.text.dark-theme {
+    --text-color: white;
+}
+
+body {
+background: var(--bkg-color);
+transition: all 0.5s ease-in-out;
+}
+
+h1, h2 {
+color: var(--text-color);
+transition: all 0.5s ease-in-out;
+}
 
 /* TEXT //////////////////////////////////////*/
 h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
+    /* color: var(--text-color); */
 }
 
-h2, span {
+h2, button, span {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 14px;
+    /* color: var(--text-color); */
 }
 
 
 /* LINKS ////////////////////////////////////*/
+.link {
+    --link-color: blue;
+}
+
+.link.dark-theme {
+    --link-color: #FCFF69;
+}
+
+a {
+    transition: all 0.5s ease-in-out;
+}
+
 a:link { 
     text-decoration: underline;
-    color: blue;
+    color: var(--link-color);
 }
 
 a:visited { 
     text-decoration: none; 
-    color: blue;
+    color: var(--link-color);
 }
 
 a:hover { 
@@ -36,18 +77,46 @@ a:focus {
 }
 
 
+
+
+a.home,a.about:link {
+    text-decoration: underline; 
+    color: var(--link-color);
+}
+
+a.home,a.about:visited {
+    text-decoration: underline; 
+    color: var(--link-color);
+}
+
+
+
+/* 
+a:link.dark-theme{ 
+    text-decoration: underline;
+    color: var(--link-color);
+}
+
+a:visited.dark-theme{ 
+    text-decoration: underline;
+    color: var(--link-color);
+} */
+
+
 /* FILTER LINKS /////////////////////////////*/
+
 a.filterButton:link {
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
+    padding: 0 10px 0 10px;
     border: solid;
     display: inline-block;
-    transition: transform .1s ease-out;
+    transition: transform .1s ease-out, color 0.5s ease-in-out;
 }
 
 a.filterButton:visited { 
     text-decoration: none; 
-    color: black;
+    color: var(--text-color);
 }
 
 a.filterButton:hover { 
@@ -60,15 +129,33 @@ a.filterButton:focus {
 }
 
 
-a.home,a.about:link {
-    text-decoration: underline; 
-    color: blue;
+a.filterButtonActive:link {
+    background: var(--text-color);
+    color: var(--bkg-color);
+    border-color: var(--text-color);
+    transition: all 0.5s ease-in-out;
 }
 
-a.home,a.about:visited {
-    text-decoration: underline; 
-    color: blue;
+a.filterButtonActive:visited {
+    background: var(--text-color);
+    color: var(--bkg-color);
+    border-color: var(--text-color);
 }
+
+
+
+
+.btn-toggle {
+    background: var(--text-color);
+    border: solid;
+    margin-left: 25px;
+    position: absolute;
+    bottom: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
 
 
 main {
@@ -108,8 +195,10 @@ nav {
     z-index: 2;
     width: 100%;
     height: 50px;
-    background: white;
-    /* border-bottom: solid; */
+    background: var(--bkg-color);
+    color: var(--text-color);
+    transition: all 0.5s ease-in-out;
+    border-bottom: solid;
 }
 
 .home {
@@ -126,10 +215,6 @@ nav {
     /* line-height: 2; */
 }
 
-.filterButtonActive {
-    background: black;
-    border-color:black;
-}
 
 
 
@@ -155,13 +240,14 @@ nav {
 .num, .circle {
     grid-column: 1;
     grid-row: 1;
+    transition: all 0.5s ease-in-out;
 }
 
 .num{
     font-family: 'EB Garamond', serif;
     font-size: 36px;
     text-align: center;
-    /* color: #515151; */
+    color: var(--text-color);
     width: 50px;
     height: 50px;
 }
@@ -171,7 +257,7 @@ nav {
     height: 50px;
     border-radius: 50%;
     border: solid;
-    border-color: white;
+    border-color: var(--bkg-color);
     /* border-color: #515151; */
     /* border-width: 2px; */
 }
@@ -187,13 +273,12 @@ nav {
 
 
 
-
-
-
 .project {
     padding: 60px 0 60px 25px;
     border-bottom: solid;
-    /* border-left: solid; */
+    color: var(--text-color);
+    border-left: solid;
+    transition: all 0.5s ease-in-out;
 }
 
 .year {
