@@ -8,7 +8,7 @@ html, body {
     --bkg-color: white;
 }
 
-.bkg.dark-theme {
+.dark .bkg {
     /* --text-color: white; */
     --bkg-color: black;
 }
@@ -17,18 +17,22 @@ html, body {
     --text-color: black;
 }
 
-.text.dark-theme {
+.dark .text {
     --text-color: white;
+}
+
+.transition-class {
+    transition: all 0.5s ease-in-out;
 }
 
 body {
 background: var(--bkg-color);
-transition: all 0.5s ease-in-out;
+/* transition: all 0.5s ease-in-out; */
 }
 
 h1, h2 {
 color: var(--text-color);
-transition: all 0.5s ease-in-out;
+/* transition: all 0.5s ease-in-out; */
 }
 
 /* TEXT //////////////////////////////////////*/
@@ -50,13 +54,13 @@ h2, button, span {
     --link-color: blue;
 }
 
-.link.dark-theme {
+.dark .link {
     --link-color: #FCFF69;
 }
 
-a {
+/* a {
     transition: all 0.5s ease-in-out;
-}
+} */
 
 a:link { 
     text-decoration: underline;
@@ -103,15 +107,38 @@ a:visited.dark-theme{
 } */
 
 
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.toggle {
+    background: var(--bkg-color);
+    color: var(--text-color);
+    border: solid;
+    padding: 0 10px 0 10px;
+    /* margin-left: 25px; */
+    position: absolute;
+    bottom: 25px;
+    transition: transform .1s ease-out; 
+}
+
+.toggle:hover {
+    transform: translateY(4px);
+}
+
+
 /* FILTER LINKS /////////////////////////////*/
 
 a.filterButton:link {
     text-decoration: none;
+    background: var(--bkg-color);
     color: var(--text-color);
     padding: 0 10px 0 10px;
     border: solid;
     display: inline-block;
-    transition: transform .1s ease-out, color 0.5s ease-in-out;
+    transition: transform .1s ease-out; 
+    /* color 0.5s ease-in-out; */
 }
 
 a.filterButton:visited { 
@@ -133,7 +160,8 @@ a.filterButtonActive:link {
     background: var(--text-color);
     color: var(--bkg-color);
     border-color: var(--text-color);
-    transition: all 0.5s ease-in-out;
+    transition: transform .1s ease-out;
+    /* background 0.5s ease-in-out, color 0.5s ease-in-out; */
 }
 
 a.filterButtonActive:visited {
@@ -142,17 +170,42 @@ a.filterButtonActive:visited {
     border-color: var(--text-color);
 }
 
+a.filterButtonActive:hover { 
+    text-decoration: none;
+    transform: translateY(4px);
+}
 
 
 
-.btn-toggle {
+
+/* #toggle {
     background: var(--text-color);
     border: solid;
     margin-left: 25px;
     position: absolute;
     bottom: 25px;
-    transition: all 0.5s ease-in-out;
+} */
+
+
+
+
+ /* label {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background: #ccc;
 }
+.checkbox-example input[type=checkbox]:checked + label {
+    left: 27px;
+} */
+
+
 
 
 
@@ -180,6 +233,7 @@ section {
 
 .leftCol{
     width: 335px;
+    /* border-right: solid; */
 }
 
 .rightCol{
@@ -197,7 +251,7 @@ nav {
     height: 50px;
     background: var(--bkg-color);
     color: var(--text-color);
-    transition: all 0.5s ease-in-out;
+    /* transition: all 0.5s ease-in-out; */
     border-bottom: solid;
 }
 
@@ -240,7 +294,6 @@ nav {
 .num, .circle {
     grid-column: 1;
     grid-row: 1;
-    transition: all 0.5s ease-in-out;
 }
 
 .num{
@@ -250,6 +303,7 @@ nav {
     color: var(--text-color);
     width: 50px;
     height: 50px;
+    /* transition: all 0.5s ease-in-out; */
 }
 
 .circle {
@@ -257,14 +311,19 @@ nav {
     height: 50px;
     border-radius: 50%;
     border: solid;
-    border-color: var(--bkg-color);
+    color: var(--bkg-color);
     /* border-color: #515151; */
     /* border-width: 2px; */
+}
+
+.circle:focus {
+    transition: none;
 }
 
 .numButtonActive {
     transition: transform .7s ease-in-out;
   }
+
 .numButtonActive:hover {
     transform: rotate(360deg);
     cursor: pointer;
@@ -277,8 +336,8 @@ nav {
     padding: 60px 0 60px 25px;
     border-bottom: solid;
     color: var(--text-color);
-    border-left: solid;
-    transition: all 0.5s ease-in-out;
+    /* border-left: solid; */
+    /* transition: all 0.5s ease-in-out; */
 }
 
 .year {
@@ -314,8 +373,18 @@ nav {
     width: 18%;
 }
 
+.scrollToTop {
+    visibility: hidden;
+        clear: both;
+        display: none;
+}
+
 
 @media only screen and (max-width: 800px) {
+    html {
+        scroll-behavior: smooth;
+    }
+    
     main {
         display: flex;
         height: auto;
@@ -326,32 +395,68 @@ nav {
     }
 
     .numContainer {
-        /* visibility: hidden;
+        visibility: hidden;
         clear: both;
-        display: none; */
+        display: none;
     }
 
     .leftCol {
         width: 100%;
-        border-bottom: solid;
-        padding-bottom: 70px;
+        background-color: var(--bkg-color);
+        color: var(--text-color);
+        border-top: solid;
+        position: fixed;
+        bottom: 0;
+        height: 103px;
+    }
+
+    .scrollToTop {
+        visibility: unset;
+        clear: unset;
+        display: unset;
+        position: fixed;
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        right: 25px;
+        bottom: 125px;
+        background-image: url(assets/up-arrow-black.png);
+        background-position: 50% 50%;
+        background-size: contain;
+        transition: transform .7s ease-in-out;
+    }
+
+    .scrollDark {
+        background-image: url(assets/up-arrow-white.png);
+    }
+
+
+    .filter {
+        position: fixed;
+        bottom: 12px;
+    }
+
+    .toggle {
+        right: 25px;
+        
+        position: fixed;
     }
 
     .rightCol{
         width: 100%;
         min-width: 50%;
+        padding-bottom: 103px;
     }
 
     .project {
         padding: 60px 25px 60px 25px;
         border-bottom: solid;
-        /* border-left: solid; */
     }
 
     .imageScroll {
         display: flex;
         overflow-x: scroll;
-        height: 40vh;
+        height: 20vh;
         width: 100%;
     }
 
