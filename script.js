@@ -61,14 +61,14 @@ $.getJSON("data.json", function(data){
 
       sessionStorage.setItem("isDarkMode", "true");
       $(".toggle").text("Light");
-      $(".scrollToTop").addClass("scrollDark")
+      $(".scrollToTop").addClass("scrollDark");
     } else {
       toggle.checked = false;
       html.classList.remove("dark");
 
       sessionStorage.setItem("isDarkMode", "false");
       $(".toggle").text("Dark");
-      $(".scrollToTop").removeClass("scrollDark")
+      $(".scrollToTop").removeClass("scrollDark");
     }
   };
 
