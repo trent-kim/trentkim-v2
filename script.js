@@ -40,19 +40,22 @@ $.getJSON("data.json", function(data){
   const toggle = document.getElementById("toggle");
   const html = document.getElementsByTagName("html")[0];
   const body = document.getElementsByTagName("body")[0];
-  const nav = document.getElementsByTagName("nav")[0];
+  const navOne = document.getElementsByTagName("nav")[0];
+  const navTwo = document.getElementsByTagName("nav")[1];
   
 
   const setDarkMode = (isDark, transition) => {
     if (transition) {
       html.classList.add("transition-class");
       body.classList.add("transition-class");
-      nav.classList.add("transition-class");
+      navOne.classList.add("transition-class");
+      navTwo.classList.add("transition-class");
       $(".circle").addClass("transition-class");
     } else {
       html.classList.remove("transition-class");
       body.classList.remove("transition-class");
-      nav.classList.remove("transition-class");
+      navOne.classList.remove("transition-class");
+      navTwo.classList.remove("transition-class");
       $(".circle").removeClass("transition-class");
     }
     if (isDark == true) {
@@ -60,14 +63,14 @@ $.getJSON("data.json", function(data){
       html.classList.add("dark");
 
       sessionStorage.setItem("isDarkMode", "true");
-      $(".toggle").text("Light");
+    //   $(".toggle").text("Light");
       $(".scrollToTop").addClass("scrollDark");
     } else {
       toggle.checked = false;
       html.classList.remove("dark");
 
       sessionStorage.setItem("isDarkMode", "false");
-      $(".toggle").text("Dark");
+    //   $(".toggle").text("Dark");
       $(".scrollToTop").removeClass("scrollDark");
     }
   };
@@ -118,6 +121,7 @@ $.getJSON("data.json", function(data){
 
     $(".rightCol").scroll(function() {
         themeNum(filterId);
+        $(".circle").removeClass("transition-class");
     });
 
 
@@ -223,7 +227,7 @@ function filterContent(id) {
 function scrollToProject(id) {
     const element = document.getElementById("p" + id);
     element.scrollIntoView({behavior: "smooth"});
-    $(".circle").removeClass("transition-class");
+    // $(".circle").removeClass("transition-class");
 }
 
 

@@ -19,7 +19,7 @@
     <body class="bkg">
         <main>
             <div class="scrollTracker"></div>
-            <nav class="nav text link">
+            <nav class="nav-top text link">
                 <h2><a class="home" href="index.html">
                     Trent Kim
                 </a></h2>
@@ -27,7 +27,6 @@
                     About
                 </a></h2>
             </nav>
-            <a href="#top" class="scrollToTop"></a>
             <section class="leftCol text">
                 <div class="content leftContent">
                     <div class="numContainer"></div>
@@ -41,18 +40,24 @@
                             <a class="filterButton bkg text" id="all" href="all.html">All</a>
                         </h2>
                     </div> 
-                    <label>
-                        <input type="checkbox" class="hidden" id="toggle" />
-                        <!-- since the input is hidden, whatever is in the span class below will be the switch / visual aid -->
-                        <span class="toggle">Dark</span>
-                    </label>
                 </div>
+                <a href="#top" class="scrollToTop"></a>
             </section>
             <section class="rightCol text link">
                 <div class="content rightContent">
 
                 </div>
-            </section>  
+            </section>
+            <nav class="nav-bottom text link">
+                <label>
+                    <input type="checkbox" class="hidden" id="toggle"/>
+                    <!-- since the input is hidden, whatever is in the span class below will be the switch / visual aid -->
+                    <span class="toggle"></span>
+                </label>
+                <h2 class="copyright">
+                    &#169; Trent Kim 2023
+                </h2>
+            </nav>    
         </main>
     </body>
 </html>
