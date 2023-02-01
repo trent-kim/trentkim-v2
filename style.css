@@ -129,6 +129,7 @@ input[type=checkbox] {
 
 .toggle:hover {
     background: var(--text-color);
+    cursor: pointer;
     /* transform: translateY(4px); */
 }
 
@@ -521,7 +522,6 @@ section {
 
     .summary {
         width: 100%;
-        
     }
     
     .projectDescriptionSpacer {
@@ -537,7 +537,6 @@ section {
 @media only screen and (max-width: 1300px) {
     .projectDescription {
         display: block;
-        padding-right: 25px;
     }
 
     .summary {

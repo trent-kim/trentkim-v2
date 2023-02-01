@@ -12,13 +12,13 @@
       },
       {
         "number": "1",
-        "name": "Name Journaling",
+        "name": "Printed Works",
         "type": "Archive",
-        "date": "2022",
-        "tags": "Web, Writing, Process",
+        "date": "2023",
+        "tags": "Graphic Design",
         "credits": "",
-        "description": "Name journaling was a method I created for myself to document the patterns and core memories for each of my names as I transitioned away from my adoptive name to my Korean name. In 2021, I created a <a href=\"https://name-journal.glitch.me/\">website</a> to begin this documentation, but at the time, I wanted to give the idea some more time and thought before I continued. <br><br>I hope to eventually return to name journaling as I continue to question the ways that adoptive names, and the act of renaming, can reflect the loss and neo-colonial ethic that transnational adoption is built upon.",
-        "media": "<img src=\"assets/projects/name-journal/1.gif\">"
+        "description": "This is an ongoing series of posters, prints, and covers.",
+        "media": "<img src=\"assets/projects/printed-works/1.jpg\"><img src=\"assets/projects/printed-works/2.jpg\"><img src=\"assets/projects/printed-works/3.jpg\">"
       },
       {
         "number": "2",
@@ -32,13 +32,13 @@
       },
       {
         "number": "3",
-        "name": "Portfolio v.1",
+        "name": "Name Journalling",
         "type": "Archive",
         "date": "2022",
-        "tags": "Web",
+        "tags": "Web, Writing, Process",
         "credits": "",
-        "description": "For the <a href=\"https://stirring-rolypoly-028a0c.netlify.app/\">first version</a> of my website, I was wondering what makes clicking elevator buttons so much fun? So to categories the the contents of the website, I used anonymous buttons that each reveal a page, just as an elevator reveals each floor.",
-        "media": "<img src=\"assets/projects/portfolio-v1/1.gif\"><img src=\"assets/projects/portfolio-v1/2.gif\">"
+        "description": "Name journalling was a method I created for myself to document the patterns and core memories for each of my names as I transitioned away from my adoptive name to my Korean name. In 2021, I created a <a href=\"https://name-journal.glitch.me/\">website</a> to begin this documentation, but at the time, I wanted to give the idea some more time and thought before I continued. <br><br>I hope to eventually return to name journalling as I continue to question the ways that adoptive names, and the act of renaming, can reflect the loss and neo-colonial ethic that transnational adoption is built upon.",
+        "media": "<img src=\"assets/projects/name-journal/1.gif\">"
       },
       {
         "number": "4",
