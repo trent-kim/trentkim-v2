@@ -5,20 +5,20 @@ html, body {
 
 .bkg {
     /*  */
-    --bkg-color: white;
+    --bkg-color: #F5F5F5;
 }
 
 .dark .bkg {
     /* --text-color: white; */
-    --bkg-color: black;
+    --bkg-color: #1E1E1E;
 }
 
 .text {
-    --text-color: black;
+    --text-color: #1E1E1E;
 }
 
 .dark .text {
-    --text-color: white;
+    --text-color: #F5F5F5;
 }
 
 .transition-class {
@@ -118,7 +118,7 @@ input[type=checkbox] {
     background: var(--bkg-color);
     color: var(--text-color);
     border: solid;
-    border-width: thin;
+    /* border-width: thin; */
     border-radius: 50%;
     /* padding: 0 10px 0 10px; */
     /* margin-left: 25px; */
@@ -142,7 +142,7 @@ a.filterButton:link {
     color: var(--text-color);
     padding: 0 10px 0 10px;
     border: solid;
-    border-width: thin;
+    /* border-width: thin; */
     display: inline-block;
     transition: transform .1s ease-out; 
     /* color 0.5s ease-in-out; */
@@ -241,7 +241,7 @@ section {
 .leftCol{
     width: 335px;
     border-right: solid;
-    border-width: thin;
+    /* border-width: thin; */
     color: var(--text-color);
 }
 
@@ -262,7 +262,7 @@ section {
     background: var(--bkg-color);
     color: var(--text-color);
     border-bottom: solid;
-    border-width: thin;
+    /* border-width: thin; */
 }
 
 .nav-bottom {
@@ -277,7 +277,7 @@ section {
     background: var(--bkg-color);
     color: var(--text-color);
     border-top: solid;
-    border-width: thin;
+    /* border-width: thin; */
 }
 
 .home {
@@ -341,7 +341,7 @@ section {
     height: 50px;
     border-radius: 50%;
     border: solid;
-    border-width: thin;
+    /* border-width: thin; */
     color: var(--bkg-color);
 }
 
@@ -372,7 +372,7 @@ section {
 .project {
     padding: 50px 0 60px 25px;
     border-bottom: solid;
-    border-width: thin;
+    /* border-width: thin; */
     color: var(--text-color);
     /* border-left: solid; */
     /* transition: all 0.5s ease-in-out; */
@@ -428,7 +428,7 @@ section {
     }
 
     .nav-top {
-        border-width: 1.5px;
+        /* border-width: 1.5px; */
         position: fixed;
     }
 
@@ -449,7 +449,7 @@ section {
         background-color: var(--bkg-color);
         color: var(--text-color);
         border-top: solid;
-        border-width: thin;
+        /* border-width: thin; */
         position: fixed;
         bottom: 0;
         height: 90px;
@@ -506,7 +506,7 @@ section {
     .project {
         padding: 60px 15px 60px 15px;
         border-bottom: solid;
-        border-width: thin;
+        /* border-width: thin; */
     }
 
     .imageScroll {

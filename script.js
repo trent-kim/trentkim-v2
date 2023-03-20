@@ -218,8 +218,8 @@ function filterContent(id) {
                                         </div>`)
         };
 
-        $("#" + filterList[i]).find(".circle").css("border-color", "black");
-        $("#" + filterList[i]).find(".num").css("color", "black");
+        $("#" + filterList[i]).find(".circle").css("border-color", "#1E1E1E");
+        $("#" + filterList[i]).find(".num").css("color", "#1E1E1E");
         $("#" + filterList[i]).addClass("numButtonActive");
     }
 };
