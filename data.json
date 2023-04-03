@@ -2,16 +2,6 @@
     "trentKim": [
       {
         "number": "0",
-        "name": "July 7",
-        "type": "Photos",
-        "date": "2022",
-        "tags": "",
-        "credits": "",
-        "description": "",
-        "media": "<img src=\"assets/photos/july-7/1.jpg\"><img src=\"assets/photos/july-7/2.jpg\">"
-      },
-      {
-        "number": "1",
         "name": "Printed Works",
         "type": "Archive",
         "date": "2023",
@@ -21,7 +11,7 @@
         "media": "<img src=\"assets/projects/printed-works/1.jpg\"><img src=\"assets/projects/printed-works/2.jpg\"><img src=\"assets/projects/printed-works/3.jpg\">"
       },
       {
-        "number": "2",
+        "number": "1",
         "name": "From a Photo in Seoul",
         "type": "Notes",
         "date": "2022",
@@ -31,7 +21,7 @@
         "media": "<img src=\"assets/writing/a-seoul-foster-home/1.png\">"
       },
       {
-        "number": "3",
+        "number": "2",
         "name": "Name Journalling",
         "type": "Archive",
         "date": "2022",
@@ -41,7 +31,7 @@
         "media": "<img src=\"assets/projects/name-journal/1.gif\">"
       },
       {
-        "number": "4",
+        "number": "3",
         "name": "May 29",
         "type": "Photos",
         "date": "2022",
@@ -51,7 +41,7 @@
         "media": "<img src=\"assets/photos/may-29/1.jpg\"><img src=\"assets/photos/may-29/2.jpg\">"
       },
       {
-        "number": "5",
+        "number": "4",
         "name": "Incorporeal Company",
         "type": "Archive",
         "date": "2021",
@@ -61,7 +51,7 @@
         "media": "<img src=\"assets/projects/incorporeal-company/2.gif\"><img src=\"assets/projects/incorporeal-company/3.gif\">"
       },
       {
-        "number": "6",
+        "number": "5",
         "name": "From My Desk",
         "type": "Notes",
         "date": "2022",
@@ -71,7 +61,7 @@
         "media": ""
       },
       {
-        "number": "7",
+        "number": "6",
         "name": "May 5",
         "type": "Photos",
         "date": "2022",
@@ -81,7 +71,7 @@
         "media": "<img src=\"assets/photos/may-5/1.jpg\"><img src=\"assets/photos/may-5/2.jpg\"><img src=\"assets/photos/may-5/3.jpg\">"
       },
       {
-        "number": "8",
+        "number": "7",
         "name": "Wecair University",
         "type": "Archive",
         "date": "2021",
@@ -91,7 +81,7 @@
         "media": "<img src=\"assets/projects/wecair-university/1.png\"><img src=\"assets/projects/wecair-university/4.gif\"><img src=\"assets/projects/wecair-university/2.png\"><img src=\"assets/projects/wecair-university/5.gif\"><img src=\"assets/projects/wecair-university/3.png\">"
       },
       {
-        "number": "9",
+        "number": "8",
         "name": "April 28",
         "type": "Photos",
         "date": "2022",
@@ -101,7 +91,7 @@
         "media": "<img src=\"assets/photos/april-28/1.jpg\"><img src=\"assets/photos/april-28/2.jpg\">"
       },
       {
-        "number": "10",
+        "number": "9",
         "name": "Hack@Home",
         "type": "Featured Projects",
         "date": "2020",
@@ -111,7 +101,7 @@
         "media": "<img src=\"assets/projects/hack-at-home/hack-at-home-1.gif\"><img src=\"assets/projects/hack-at-home/hack-at-home-2.jpg\"><img src=\"assets/projects/hack-at-home/hack-at-home-3.jpg\"><img src=\"assets/projects/hack-at-home/hack-at-home-4.png\"><img src=\"assets/projects/hack-at-home/hack-at-home-5.png\"><img src=\"assets/projects/hack-at-home/hack-at-home-6.png\"><img src=\"assets/projects/hack-at-home/hack-at-home-7.png\"><img src=\"assets/projects/hack-at-home/hack-at-home-8.png\"><img src=\"assets/projects/hack-at-home/hack-at-home-9.png\"><img src=\"assets/projects/hack-at-home/hack-at-home-10.png\"><img src=\"assets/projects/hack-at-home/hack-at-home-11.png\"><img src=\"assets/projects/hack-at-home/hack-at-home-12.png\">"
       },
       {
-        "number": "11",
+        "number": "10",
         "name": "February 23",
         "type": "Photos",
         "date": "2022",
@@ -121,7 +111,7 @@
         "media": "<img src=\"assets/photos/feb-23/1.jpg\"><img src=\"assets/photos/feb-23/2.jpg\">"
       },
       {
-        "number": "12",
+        "number": "11",
         "name": "Thought Galaxy",
         "type": "Featured Projects",
         "date": "2020",
@@ -131,7 +121,7 @@
         "media": "<img src=\"assets/projects/thought-galaxy/thought-galaxy-1.gif\"><img src=\"assets/projects/thought-galaxy/thought-galaxy-2.gif\"><img src=\"assets/projects/thought-galaxy/thought-galaxy-4.png\"><video controls><source src=\"assets/projects/thought-galaxy/thought-galaxy-5.mov\" type=\"video/mp4\"></video><video controls><source src=\"assets/projects/thought-galaxy/thought-galaxy-6.mov\" type=\"video/mp4\"></video><video controls><source src=\"assets/projects/thought-galaxy/thought-galaxy-7.mov\" type=\"video/mp4\"></video>"
       },
       {
-        "number": "13",
+        "number": "12",
         "name": "February 20",
         "type": "Photos",
         "date": "2022",
@@ -141,7 +131,7 @@
         "media": "<img src=\"assets/photos/feb-20/1.jpg\"><img src=\"assets/photos/feb-20/2.jpg\">"
       },
       {
-        "number": "14",
+        "number": "13",
         "name": "From Home",
         "type": "Notes",
         "date": "2022",
@@ -151,7 +141,7 @@
         "media": ""
       },
       {
-        "number": "15",
+        "number": "14",
         "name": "February 12",
         "type": "Photos",
         "date": "2022",
@@ -161,7 +151,7 @@
         "media": "<img src=\"assets/photos/feb-12/1.jpg\"><img src=\"assets/photos/feb-12/2.jpg\">"
       },
       {
-        "number": "16",
+        "number": "15",
         "name": "January 29",
         "type": "Photos",
         "date": "2022",
@@ -170,7 +160,16 @@
         "description": "",
         "media": "<img src=\"assets/photos/jan-29/1.jpg\"><img src=\"assets/photos/jan-29/2.jpg\">"
       },
-      
+      {
+        "number": "16",
+        "name": "From a Park Bench",
+        "type": "Notes",
+        "date": "2022",
+        "tags": "",
+        "credits": "",
+        "description": "<em>December 20, 2021 <br>When we were children, we were always looking up. <br>Now that we’re adults, we are always looking down. <br>Down at ourselves looking up.</em> <br><br>Or just look up. <br><br>As I began to walk home after work, following the same scour I’ve drawn in the concrete, I found myself paying respect to my elders, the trees. In order to properly pay respect to the trees, you must look them in the eyes and smile to acknowledge the years between you and them. To find their eyes, look to where the setting sun paints their branches. So long as you do that, they’ll smile back and be there whenever you need. <br><br>When you do pay respect to the trees for the first time, tears might gather like rain droplets gather on the youthful branches of their saplings. Tears might gather, not because it’s the first time, but because it’s not. <br><br>I was a child under the trees again. <br><br>Just look up.",
+        "media": ""
+      },
       {
         "number": "17",
         "name": "Sum",
@@ -181,28 +180,19 @@
         "description": "<em>Sum</em> is a food sharing platform prototype that provides a space to organize shared meals with family, friends, and community members. Inspired by the <a href=\"https://docs.google.com/spreadsheets/d/1jxjbzdNtRD_FnPZzGtN03suQl_kcH8OGQc26wM-FAMs/edit#gid=0\">experiences and concerns of others with food sharing</a>, <em>Sum</em> incentives cooking and sharing meals based upon the ingredients each person already has in their pantry or fridge in order to prevent food waste, save money, and build community. Check out our prototype <a href=\"https://www.figma.com/proto/scOLwlfksqbtnDkoeeAd2w/Sum?embed_host=share&kind=&node-id=145%3A425&scaling=scale-down&viewport=471%2C442%2C0.08021785318851471\">here</a>. <br><br>Food is a language of love, care, and hospitality in many cultures, yet the commodification of food can contradict our relationship with it, thus losing its social value. <a href=\"https://www.feedingamerica.org/hunger-in-america/facts\">Food insecurity in the US</a> is inextricably linked to the millions of people who are struggling with poverty, low income work, and other financial burdens. But quite contradictory, <a href=\"https://www.theguardian.com/environment/2018/apr/18/americans-waste-food-fruit-vegetables-study\">150,000 tons of food is wasted by Americans each day</a>, the majority by those with more disposable income and time to afford healthier diets. With food waste being <a href=\"https://drawdown.org/solutions/reduced-food-waste\">the world’s third largest emitter of greenhouse gases</a>, how might food sharing reduce food waste at the consumer level while bringing us closer?",
         "media": "<img src=\"assets/projects/sum/sum-1.gif\"><img src=\"assets/projects/sum/sum-2.jpg\"><img src=\"assets/projects/sum/sum-3.jpg\"><img src=\"assets/projects/sum/sum-5.jpg\"><img src=\"assets/projects/sum/sum-4.jpg\"><img src=\"assets/projects/sum/sum-11.jpeg\"><img src=\"assets/projects/sum/sum-12.jpeg\"><img src=\"assets/projects/sum/sum-13.jpeg\"><img src=\"assets/projects/sum/sum-14.jpeg\"><img src=\"assets/projects/sum/sum-15.jpeg\">"
       },
+      
       {
         "number": "18",
-        "name": "From a Park Bench",
-        "type": "Notes",
-        "date": "2022",
-        "tags": "",
-        "credits": "",
-        "description": "<em>December 20, 2021 <br>When we were children, we were always looking up. <br>Now that we’re adults, we are always looking down. <br>Down at ourselves looking up.</em> <br><br>Or just look up. <br><br>As I began to walk home after work, following the same scour I’ve drawn in the concrete, I found myself paying respect to my elders, the trees. In order to properly pay respect to the trees, you must look them in the eyes and smile to acknowledge the years between you and them. To find their eyes, look to where the setting sun paints their branches. So long as you do that, they’ll smile back and be there whenever you need. <br><br>When you do pay respect to the trees for the first time, tears might gather like rain droplets gather on the youthful branches of their saplings. Tears might gather, not because it’s the first time, but because it’s not. <br><br>I was a child under the trees again. <br><br>Just look up.",
-        "media": ""
-      },
-      {
-        "number": "19",
         "name": "Family Scent",
         "type": "Archive",
         "date": "2019",
         "tags": "Motion",
         "credits": "",
         "description": "A short motion graphics exercise for speculative institution in a future where olfactory systems might be exploited as the perception of smell changes in the face of evolving family structures.",
-        "media": "</video><video controls><source src=\"assets/projects/family-scent/1.mp4\" type=\"video/mp4\"></video>"
+        "media": "<img src=\"assets/projects/family-scent/1.gif\"><video controls><source src=\"assets/projects/family-scent/2.mp4\" type=\"video/mp4\"></video>"
       },
       {
-        "number": "20",
+        "number": "19",
         "name": "January 18",
         "type": "Photos",
         "date": "2022",
@@ -212,7 +202,7 @@
         "media": "<img src=\"assets/photos/jan-18/1.jpg\"><img src=\"assets/photos/jan-18/2.jpg\">"
       },
       {
-        "number": "21",
+        "number": "20",
         "name": "From After a Shift",
         "type": "Notes",
         "date": "2021",
@@ -222,17 +212,7 @@
         "media": ""
       },
       {
-        "number": "22",
-        "name": "nth degree: unconference",
-        "type": "Archive",
-        "date": "2019",
-        "tags": "Community Workshops, Event",
-        "credits": "<h1>Conference Team<span>: <a href=\"https://kayliang.com/\">Kay Liang</a>, Michael Caplan, <a href=\"http://libyhays.net/index.html\">Libby Hays</a>, Trent Kim</span></h1>",
-        "description": "<em>nth degree: unconference</em> was an event hosted by <a href=\"https://www.facebook.com/discoverbrisd/\">Discover</a>, a RISD and Brown University student group interested in pedagogical access and exchange. In previous years, Discover hosted a conference featuring a series of unscripted conversations between professors from each of the campuses. Wanting to subvert traditionally merit-based conferences, <em>nth degree: unconference</em> was a participatory space for students and faculty to reflect upon our educational experiences through workshops, intimate activities, and playful settings. <br><br>Despite RISD and Brown’s unique access to cross-campus resources, rigorous course loads, isolation within our majors, and bureaucratic barriers often make it difficult to take advantage of resources and communities that we are a part of. Over the day-long event, we found ourselves critiquing university rituals such as crit, a collaborative feedback process ubiquitous to art and design schools, reflecting on the ways in which we value our work in relation to ourselves, imagining what spaces we would like to see on campus, and learning what it means to be cared for within a classroom setting. <em>nth degree: unconference</em> was a reminder of our ability to find and build community as an act of collective care and defiance. <br><br>Thank you Kay Liang, Michael Caplan, and Libby Hays for such a formative experience and making me apart of the Conference Team.",
-        "media": "<video controls><source src=\"assets/projects/nth-degree/nth-degree.mp4\" type=\"video/mp4\"></video>"
-      },
-      {
-        "number": "23",
+        "number": "21",
         "name": "January 5",
         "type": "Photos",
         "date": "2022",

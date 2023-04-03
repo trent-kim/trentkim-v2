@@ -88,6 +88,11 @@ a.home,a.about:link {
     color: var(--link-color);
 }
 
+a.home:hover ,a.about:hover {
+    text-decoration: none; 
+    color: var(--link-color);
+}
+
 a.home,a.about:visited {
     text-decoration: underline; 
     color: var(--link-color);
@@ -124,6 +129,7 @@ input[type=checkbox] {
     /* margin-left: 25px; */
     position: absolute;
     /* bottom: 75px; */
+    right: 25px;
     transition: transform .1s ease-out; 
 }
 
@@ -131,6 +137,13 @@ input[type=checkbox] {
     background: var(--text-color);
     cursor: pointer;
     /* transform: translateY(4px); */
+}
+
+.aboutContainer {
+    display: flex;
+    align-items: center;
+    /* width: 100px; */
+    /* margin-right: 45px; */
 }
 
 
@@ -240,7 +253,7 @@ section {
 
 .leftCol{
     width: 335px;
-    border-right: solid;
+    /* border-right: solid; */
     /* border-width: thin; */
     color: var(--text-color);
 }
@@ -248,6 +261,7 @@ section {
 .rightCol{
     width: calc(100% - 336.5px);
     min-width: 50%;
+    /* border-left: solid; */
     /* top: 50px; */
 }
 
@@ -274,9 +288,9 @@ section {
     width: 100%;
     height: 50px;
     bottom: 0;
-    background: var(--bkg-color);
+    /* background: var(--bkg-color); */
     color: var(--text-color);
-    border-top: solid;
+    /* border-top: solid; */
     /* border-width: thin; */
 }
 
@@ -285,7 +299,7 @@ section {
 }
 
 .about {
-    margin-right: 25px;
+    margin-right: 55px;
 }
 
 .copyright {
@@ -365,12 +379,13 @@ section {
     padding-top: 50px;
 } */
 
-.rightContent:last-child {
-    padding-bottom: 50px;
+.project:last-of-type {
+    border-bottom: none;
+    /* padding-bottom: 50px; */
 }
 
 .project {
-    padding: 50px 0 60px 25px;
+    padding: 50px 0 60px 0px;
     border-bottom: solid;
     /* border-width: thin; */
     color: var(--text-color);
@@ -385,7 +400,7 @@ section {
 .imageScroll {
     display: flex;
     overflow-x: scroll;
-    height: 70vh;
+    height: 65vh;
     cursor: ew-resize;
 }
 
@@ -479,8 +494,10 @@ section {
         margin-left: 15px;
     }
 
+   
+
     .about {
-        margin-right: 15px;
+        margin-right: 35px;
     }
 
 
@@ -492,7 +509,7 @@ section {
     }
 
     .toggle {
-        right: 25px;
+        right: 15px;
         
         position: fixed;
     }
@@ -534,7 +551,7 @@ section {
 }
 
 
-@media only screen and (max-width: 1300px) {
+/* @media only screen and (max-width: 1300px) {
     .projectDescription {
         display: block;
     }
@@ -552,4 +569,4 @@ section {
         width: 100%;
     }
 
-}
+} */

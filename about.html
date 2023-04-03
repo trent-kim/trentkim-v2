@@ -22,9 +22,16 @@
                 <h2><a class="home" href="index.html">
                     Trent Kim
                 </a></h2>
-                <h2><a class="about aboutActive" href="about.html">
-                    About
-                </a></h2>
+                <div class="aboutContainer">
+                    <h2><a class="about" href="about.html">
+                        About
+                    </a></h2>
+                    <label>
+                        <input type="checkbox" class="hidden" id="toggle"/>
+                        <!-- since the input is hidden, whatever is in the span class below will be the switch / visual aid -->
+                        <span class="toggle"></span>
+                    </label>
+                </div>
             </nav>
             
             <section class="leftCol text">
@@ -64,14 +71,7 @@
                 </div>
             </section>  
             <nav class="nav-bottom text link">
-                <label>
-                    <input type="checkbox" class="hidden" id="toggle"/>
-                    <!-- since the input is hidden, whatever is in the span class below will be the switch / visual aid -->
-                    <span class="toggle"></span>
-                </label>
-                <h2 class="copyright">
-                    &#169; Trent Kim 2023
-                </h2>
+                
             </nav>  
         </main>
     </body>
