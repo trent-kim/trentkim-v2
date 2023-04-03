@@ -58,10 +58,6 @@ h2, button, span {
     --link-color: #FCFF69;
 }
 
-/* a {
-    transition: all 0.5s ease-in-out;
-} */
-
 a:link { 
     text-decoration: underline;
     color: var(--link-color);
@@ -97,20 +93,6 @@ a.home,a.about:visited {
     text-decoration: underline; 
     color: var(--link-color);
 }
-
-
-
-/* 
-a:link.dark-theme{ 
-    text-decoration: underline;
-    color: var(--link-color);
-}
-
-a:visited.dark-theme{ 
-    text-decoration: underline;
-    color: var(--link-color);
-} */
-
 
 
 input[type=checkbox] {
@@ -194,41 +176,6 @@ a.filterButtonActive:hover {
     text-decoration: none;
     transform: translateY(4px);
 }
-
-
-
-
-/* #toggle {
-    background: var(--text-color);
-    border: solid;
-    margin-left: 25px;
-    position: absolute;
-    bottom: 25px;
-} */
-
-
-
-
- /* label {
-    display: block;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    transition: all .5s ease;
-    cursor: pointer;
-    position: absolute;
-    top: -2px;
-    left: -3px;
-    background: #ccc;
-}
-.checkbox-example input[type=checkbox]:checked + label {
-    left: 27px;
-} */
-
-
-
-
-
 
 
 main {
@@ -372,12 +319,6 @@ section {
     cursor: pointer;
 }
 
-
-
-
-/* .rightContent:first-child {
-    padding-top: 50px;
-} */
 
 .project:last-of-type {
     border-bottom: none;
@@ -549,24 +490,3 @@ section {
         width: 100%;
     }
 }
-
-
-/* @media only screen and (max-width: 1300px) {
-    .projectDescription {
-        display: block;
-    }
-
-    .summary {
-        width: 100%;
-        
-    }
-
-    .projectDescriptionSpacer {
-        width: 0%;
-    }
-
-    .projectDetails {
-        width: 100%;
-    }
-
-} */
